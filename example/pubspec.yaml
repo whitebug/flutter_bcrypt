@@ -1,0 +1,24 @@
+name: flutter_bcrypt_example
+description: Demonstrates how to use the flutter_bcrypt plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dbcrypt: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_bcrypt:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
