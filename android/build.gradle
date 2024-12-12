@@ -44,7 +44,11 @@ android {
         namespace 'be.appmire.flutter_bcrypt'
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = '17'
+    }
+
+    kotlin {
+        jvmToolchain(17)
     }
 }
 
